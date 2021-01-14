@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   KeyboardArrowDownRounded,
   KeyboardArrowUpRounded,
@@ -77,10 +78,12 @@ const CountriesTable = ({ countries }) => {
         </button>
       </div>
       {orderedCountries.map((country) => (
-        <div className={styles.row}>
-          <div className={styles.name}>{country.name}</div>
-          <div className={styles.population}>{country.population}</div>
-        </div>
+        <Link href={`/country/${country.alpha3Code}`}>
+          <div className={styles.row}>
+            <div className={styles.name}>{country.name}</div>
+            <div className={styles.population}>{country.population}</div>
+          </div>
+        </Link>
       ))}
     </div>
   );
