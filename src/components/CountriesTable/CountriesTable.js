@@ -4,7 +4,7 @@ import {
   KeyboardArrowUpRounded,
 } from "@material-ui/icons";
 import { useState } from "react";
-import styles from "./CountriesTable.module.css";
+import styles from "./CountriesTable.module.scss";
 
 const orderBy = (countries, value, direction) => {
   if (direction === "asc") {

@@ -1,13 +1,12 @@
 .heading {
   display: flex;
   padding: 20px;
-}
-
-.heading button {
-  border: none;
-  background-color: transparent;
-  outline: none;
-  cursor: pointer;
+  button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
 }
 
 .heading_flag {
@@ -36,7 +35,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-left: 2px;
 }
 
@@ -51,11 +49,10 @@
   font-weight: 500;
   transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
   cursor: pointer;
-}
-
-.row:hover {
-  transform: translateY(-4px);
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .name {
@@ -78,11 +75,10 @@
 .flag {
   flex: 1;
   margin-right: 16px;
-}
-
-.flag img {
-  border-radius: 2px;
-  width: 100%;
+  img {
+    border-radius: 2px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 720px) {
