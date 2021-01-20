@@ -1,7 +1,7 @@
 import Layout from "../components/Layout/Layout";
 import SearchInput from "../components/SearchInput/SearchInput";
 import CountriesTable from "../components/CountriesTable/CountriesTable";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 import { useState } from "react";
 
 export default function Home({ countries }) {
