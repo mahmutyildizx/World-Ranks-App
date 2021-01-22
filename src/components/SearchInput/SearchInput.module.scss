@@ -14,8 +14,7 @@
   width: 100%;
   outline: none;
   height: 100%;
-}
-
-.input::placeholder {
-  color: var(--text-color-secondary);
+  &:placeholder {
+    color: var(--text-color-secondary);
+  }
 }

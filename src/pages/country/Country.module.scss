@@ -1,13 +1,12 @@
-.overview_panel img {
-  width: 100%;
-  border-radius: 4px;
-}
-
 .overview_panel {
   padding: 20px;
   border-radius: 8px;
   box-shadow: var(--box-shadow);
   background-color: var(--background-color-light);
+  img {
+    width: 100%;
+    border-radius: 4px;
+  }
 }
 
 .overview_name {
